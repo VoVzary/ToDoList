@@ -1,0 +1,111 @@
+.root{
+
+    -fx-background: lightgray;
+
+}
+
+
+
+.label {
+
+    -fx-font-size: 12px;
+
+    -fx-font-weight: bold;
+
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+
+}
+
+
+
+.button{
+
+    -fx-font-size: 14px;
+
+    -fx-font-family: "Agency FB";
+
+    -fx-background-color: linear-gradient(lightgrey, darkgrey);
+
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+
+}
+
+
+
+.button: hover {
+
+    -fx-background-color: linear-gradient(darkgrey, lightgrey);
+
+}
+
+
+
+.table-row-cell {
+
+-fx-background: -fx-control-inner-background;
+
+
+
+    -fx-background-color: -fx-table-cell-border-color, -fx-background;
+
+}
+
+
+
+.text-field-line-through{
+
+    -fx-font-size: 12pt;
+
+    -fx-font-family: "Tahoma";
+
+}
+
+
+
+.text-color1{
+
+    -fx-text-fill: #384DFD;
+
+    -fx-effect: dropshadow(three-pass-box, gray, 10px, 0, 0, 0);
+
+}
+
+
+
+.text-color2{
+
+-fx-text-fill: red;
+
+-fx-text-decoration: line-through;
+
+}
+
+
+
+.text-strikethrough{
+
+-fx-strikethrough: true;
+
+}
+
+
+
+.table-column1{
+
+-fx-background-color: lightblue;
+
+-fx-effect: dropshadow(three-pass-box, gray, 5px, 0, 0, 0);
+
+-fx-text-fill: grey;
+
+-fx-font-size: 10pt;
+
+}
+
+
+
+.button {
+
+-fx-effect: dropshadow(three-pass-box, gray, 15px, 0, 0, 0);
+
+}

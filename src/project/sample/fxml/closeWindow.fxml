@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="193.0" prefWidth="307.0" stylesheets="@../css/myTheme.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.sample.controllers.CloseWindowController">
+   <children>
+      <Label prefHeight="17.0" prefWidth="607.0" text="В вашем списке есть изменения. Сохранить?" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+         <VBox.margin>
+            <Insets bottom="10.0" left="15.0" right="10.0" top="50.0" />
+         </VBox.margin>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <HBox prefHeight="65.0" prefWidth="328.0">
+         <children>
+            <Button fx:id="btnOk" onAction="#eventButton" mnemonicParsing="false" prefHeight="50.0" prefWidth="70.0" text="Ok">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="10.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="btnNo" onAction="#eventButton" mnemonicParsing="false" prefHeight="50.0" prefWidth="70.0" text="No">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="btnCancel" onAction="#eventButton" cancelButton="true" mnemonicParsing="false" prefHeight="50.0" prefWidth="70.0" text="Cancel">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets top="50.0" />
+         </VBox.margin>
+      </HBox>
+   </children>
+</VBox>
